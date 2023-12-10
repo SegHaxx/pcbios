@@ -1,4 +1,5 @@
 $TITLE(BIOS FOR IBM PERSONAL COMPUTER)
+NAME PCBIOSV3
 
 ;----------------------------------------------------------------
 ;	THE  BIOS ROUTINES ARE MEANT TO BE ACCESSED THROUGH	:
@@ -6203,5 +6204,6 @@ VECTOR	SEGMENT AT 0FFFFH
 	JMP	RESET
 
 	DB	'10/27/82'              ; RELEASE MARKER
+	DB	0FFH,0FFH               ; Padding?
 VECTOR	ENDS
 	END

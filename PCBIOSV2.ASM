@@ -1,4 +1,5 @@
 $TITLE(ROM BIOS FOR IBM PERSONAL COMPUTER)
+NAME PCBIOSV2
 ;------------------------
 ; EQUATES
 ;------------------------
